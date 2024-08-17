@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BottomNavigation" >
+        <activity
+            android:name=".Activity.LoginActivity"
+            android:exported="true" >
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+
+
+
+        <activity
+            android:name=".Activity.Sellerprofil"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.AddProductFragment"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Addpr"
+            android:exported="false" />
+
+        <activity
+            android:name=".Activity.DetailActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.Signup"
+            android:exported="false" />
+
+
+        <activity
+            android:name=".Activity.SplashActivity"
+            android:exported="true" >
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+
+
+        <activity
+            android:name=".Activity.MescoomandeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.MybarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ProfileActivity"
+            android:exported="false" />
+        <activity android:name=".Activity.LesinfomationuserActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".Activity.SandwitchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ShoppingFragment"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.ProfilSellerFragment"
+            android:exported="false" />
+        <activity
+            android:name=".Activity.DetailActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activity.HomeFragment"
+            android:exported="false" />
+        <activity android:name=".Activity.OrderFragment" />
+        <activity android:name=".Activity.NotificationActivity" />
+        <activity
+            android:name=".Activity.BreadActivity"
+            android:exported="false" />
+        <activity android:name=".Activity.CakesActivity" />
+        <activity android:name=".Activity.MilkActivity" />
+        <activity android:name=".Activity.JuiesActivity" />
+
+    </application>
+
+</manifest>

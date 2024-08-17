@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/home_24dp_fill0_wght400_grad0_opsz24"
+        android:title="Home" />
+    <item
+        android:id="@+id/navigation_shopping"
+        android:icon="@drawable/shopping_cart_24dp_fill0_wght400_grad0_opsz24"
+        android:title="Shopping" />
+    <item
+    android:id="@+id/navigation_add"
+    android:icon="@drawable/baseline_add_circle_24"
+    android:title="Add" />
+    <item
+        android:id="@+id/navigation_order"
+        android:icon="@drawable/card"
+        android:title="Order" />
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/person_24dp_fill0_wght400_grad0_opsz24"
+        android:title="Profile" />
+
+</menu>

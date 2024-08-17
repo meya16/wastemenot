@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/green">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/arrow"
+            android:layout_margin="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Help "
+        android:textSize="20sp"
+        android:layout_margin="7dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Comment utiliser WasteMeNot ?"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:text="Welcome to WasteMeNot! We're excited to help you reduce food waste while saving money. Here's a quick guide to help you make the most of our app."/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="normal"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:text="1. Create an Account:
+
+To get started, create an account by providing your basic information. You can sign up with your email address or use a Gmail account for quick registration."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:text="2. Browse Products :
+
+Go to the Shopping section to see available discounted food items near you. Use filters to narrow your search by product type, expiration date, or location."/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:text="3. Pay and Collect
+
+Depending on the seller's preferences, you can pay online or at the time of collection. Make sure to note the pickup times and location. Present your reservation confirmation when you collect your items."/>
+</LinearLayout>

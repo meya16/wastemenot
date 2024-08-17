@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">WasteMeNot</string>
+    <string name="save">Save</string>
+    <string name="new_task">New Task</string>
+    <string name="tasks">Tasks</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="or_continue_with">___________________Or continue with__________________</string>
+    <string name="not_yet_registered_signup_now">Not yet registered? SignUp Now</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="error">error</string>
+    <string name="sign_in_to_wastemenot">Sign in to WasteMeNot</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="photo_produit">photo\n</string>
+    <string name="image_selected">item_selected\n\n</string>
+    <string-array name="categories">
+        <item name="Bread">Bread</item>
+        <item name="Juice">Juice</item>
+        <item name="Milk">Milk</item>
+        <item name="Vegetable">Vegetable</item>
+        <item name="Fruit">Fruit</item>
+        <!-- Add more categories as needed -->
+        
+    </string-array>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lavender"
+    tools:context=".Activity.ParcourirFragment">
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="105dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:background="@drawable/top_back"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/hj"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginLeft="320dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/notifications_24dp_fill0_wght400_grad0_opsz24" />
+
+            <EditText
+                android:id="@+id/kl"
+                android:layout_width="290dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginTop="-40dp"
+                android:background="@drawable/edittex"
+                android:drawableStart="@drawable/search_24dp_fill0_wght400_grad0_opsz24"
+                android:ems="10"
+                android:hint="search..."
+                android:inputType="text"
+                android:padding="8dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

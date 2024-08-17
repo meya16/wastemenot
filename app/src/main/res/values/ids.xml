@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="sellerhasacc" type="id"/>
+    <item name="hasacc" type="id" />
+    <item name="editemail" type="id" />
+    <item name="textemail" type="id" />
+    <item name="textcountry" type="id" />
+    <item name="editphone" type="id" />
+    <item name="textphone" type="id" />
+    <item name="editcountry" type="id" />
+</resources>
